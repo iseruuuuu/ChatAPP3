@@ -17,6 +17,8 @@
 		94EC3F0125D7B07F00BBC13C /* AuthHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EC3F0025D7B07F00BBC13C /* AuthHelper.swift */; };
 		94EC3F1925D7B2E900BBC13C /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EC3F1825D7B2E900BBC13C /* CreateAccountView.swift */; };
 		94EC3F1C25D7BED900BBC13C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EC3F1B25D7BED900BBC13C /* LoginView.swift */; };
+		94EC3F2025D7CB4700BBC13C /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EC3F1F25D7CB4700BBC13C /* DatabaseHelper.swift */; };
+		94EC3F2325D7D0AA00BBC13C /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EC3F2225D7D0AA00BBC13C /* CustomView.swift */; };
 		F8DC2CD7B6DA170358C2AA08 /* Pods_ChatAPP3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C91B5C8585131152B74935F /* Pods_ChatAPP3.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		94EC3F0025D7B07F00BBC13C /* AuthHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHelper.swift; sourceTree = "<group>"; };
 		94EC3F1825D7B2E900BBC13C /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
 		94EC3F1B25D7BED900BBC13C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		94EC3F1F25D7CB4700BBC13C /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		94EC3F2225D7D0AA00BBC13C /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		BAD85D9A8BAFB16044FC4F05 /* Pods-ChatAPP3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatAPP3.release.xcconfig"; path = "Target Support Files/Pods-ChatAPP3/Pods-ChatAPP3.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +81,8 @@
 				94EC3F0025D7B07F00BBC13C /* AuthHelper.swift */,
 				94EC3F1825D7B2E900BBC13C /* CreateAccountView.swift */,
 				94EC3F1B25D7BED900BBC13C /* LoginView.swift */,
+				94EC3F1F25D7CB4700BBC13C /* DatabaseHelper.swift */,
+				94EC3F2225D7D0AA00BBC13C /* CustomView.swift */,
 				94EC3ED825D76F1E00BBC13C /* Main.storyboard */,
 				94EC3EFC25D793A200BBC13C /* GoogleService-Info.plist */,
 				94EC3EDB25D76F2000BBC13C /* Assets.xcassets */,
@@ -219,8 +225,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				94EC3F1C25D7BED900BBC13C /* LoginView.swift in Sources */,
+				94EC3F2325D7D0AA00BBC13C /* CustomView.swift in Sources */,
 				94EC3ED725D76F1E00BBC13C /* ViewController.swift in Sources */,
 				94EC3F0125D7B07F00BBC13C /* AuthHelper.swift in Sources */,
+				94EC3F2025D7CB4700BBC13C /* DatabaseHelper.swift in Sources */,
 				94EC3ED325D76F1E00BBC13C /* AppDelegate.swift in Sources */,
 				94EC3ED525D76F1E00BBC13C /* SceneDelegate.swift in Sources */,
 				94EC3F1925D7B2E900BBC13C /* CreateAccountView.swift in Sources */,

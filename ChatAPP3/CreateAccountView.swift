@@ -57,8 +57,9 @@ class CreateAccountView: UIViewController, UIImagePickerControllerDelegate & UIN
             showError(message: "名前は3文字以上10文字以内で入力してください。")
         }else{
             AuthHelper().createAccount(email: emailTextField.text!, password: passwordTextField.text!, result: {
-               success in
+                success in
                 if success {
+                    DatabaseHelper().resisterInfo(name: self.nameTextField.text!, image: self.imageView.image!)
                     self.dismiss(animated: true, completion: nil)
                 }else{
                     self.showError(message: "有効なメールアドレス、6文字以上のパスワードを入力してください。")

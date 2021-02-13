@@ -81,17 +81,24 @@
                     </view>
                     <navigationItem key="navigationItem" title="チャット画面" id="QNd-6z-bSP">
                         <barButtonItem key="backBarButtonItem" title="戻る" id="e3V-2c-ryR"/>
-                        <barButtonItem key="leftBarButtonItem" title="ログアウト" id="ck7-85-T8Y"/>
+                        <barButtonItem key="leftBarButtonItem" title="ログアウト" id="ck7-85-T8Y">
+                            <connections>
+                                <action selector="logOut:" destination="Jwy-ob-NPj" id="Pl9-PS-ahV"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="PkK-oA-LT8">
                             <connections>
                                 <segue destination="VeF-1c-VLC" kind="show" id="in5-X7-5Tc"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="HTp-6O-IWk" kind="presentation" identifier="login" modalPresentationStyle="fullScreen" id="bIP-iF-GRw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FKW-DP-Wx3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="873.91304347826099" y="87.723214285714278"/>
+            <point key="canvasLocation" x="874" y="122"/>
         </scene>
         <!--友達追加-->
         <scene sceneID="LgJ-Vr-lxj">
@@ -313,7 +320,7 @@
                                     <constraint firstAttribute="width" constant="324" id="ZIn-AA-C6R"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bNz-2M-dwl">
                                 <rect key="frame" x="45" y="301" width="324" height="34"/>
